@@ -1,0 +1,5 @@
+# Campaigns Data
+
+campaigns:
+  title: "A short statement that matches what was clicked"
+  description: "A short paragraph or a sub-headline that provides extra information."

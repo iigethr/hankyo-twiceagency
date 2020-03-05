@@ -1,0 +1,6 @@
+# Config Data
+
+config:
+  lang: "en-GB"
+  base_url: "https://weare.twice-agency.com/"
+  legal_url: "https://twice-agency.com/privacy-policy/"

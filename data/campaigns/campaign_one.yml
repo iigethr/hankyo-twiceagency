@@ -1,0 +1,10 @@
+# Campaign One Data
+
+campaign_one:
+  title: "Welcome to the French Riviera"
+  description: "A short paragraph or a sub-headline that provides extra information."
+  why: "We challenge everything we do and go over and above our expectations."
+  how: "The way we do that is by making sure you get everything you need when you need it."
+  what: "We provide a concierge service adapted to your family, friends or coworkers."
+  result: "<h1>And while all that happens you could be here…</h1>"
+  slogan: "Beyond <br /> stress."

@@ -1,0 +1,23 @@
+{
+  "name": "Twice Agency",
+  "short_name": "Twice",
+  "description": "Twice Agency is a Luxury Lifestyle Concierge & Premium Events agency based in London & Cannes.",
+  "icons": [
+    {
+      "src": "favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type":"image/png"
+    }
+  ],
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "theme_color": "#ffffff"
+}

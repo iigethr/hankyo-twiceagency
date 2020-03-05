@@ -1,0 +1,49 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Campaigns
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+.campaign-one {
+  background-image: url("../images/campaigns/campaign-one-bg.png") !important;
+  background-repeat: no-repeat;
+  background-position: top center;
+  // background-size: 1920px 1080px;
+  float: left;
+  height: 4000px;
+  width: 100%;
+}
+
+// Media Query 240px
+// -------------------------------------------------------------
+@media #{$xxs} {
+}
+
+// Media Query 360px
+// ------------------------------------------------------------
+@media #{$xs} {
+}
+
+// Media Query 480px
+// -------------------------------------------------------------
+@media #{$s} {
+}
+
+// Media Query 720px
+// -------------------------------------------------------------
+@media #{$m} {
+}
+
+// Media Query 960px
+// -------------------------------------------------------------
+@media #{$l} {
+}
+
+// Media Query 1440px
+// -------------------------------------------------------------
+@media #{$xl} {
+}
+
+// Media Query 1920px
+// -------------------------------------------------------------
+@media #{$xxl} {
+}
