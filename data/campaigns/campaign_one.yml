@@ -2,9 +2,12 @@
 
 campaign_one:
   title: "Welcome to the French Riviera"
-  description: "A short paragraph or a sub-headline that provides extra information."
+  description: "We can help you find the luxury accommodation you are looking for."
   why: "We challenge everything we do and go over and above our expectations."
   how: "The way we do that is by making sure you get everything you need when you need it."
-  what: "We provide a concierge service adapted to your family, friends or coworkers."
-  result: "<h1>And while all that happens you could be here…</h1>"
+  what: "We provide a concierge service adapted to your family, friends & coworkers."
+  result: "And while we do what we do, you could be here…"
   slogan: "Beyond <br /> stress."
+  encouragement: "Click to find out more about our concierge <br /> services and let us help you find the <br /> prefect accommodation for your <br /> family, friends & coworkers."
+  value_proposition_title: "LONDON – CANNES"
+  value_proposition: "Twice Agency is a Luxury Lifestyle Concierge & Premium Events agency based in London & Cannes. Our 2 onsite offices cover the activities of La City and the French Riviera to provide our clients with the best knowledge, connections and entertainment with the guarantee of an exceptional quality of service. In addition, we are able to offer a wide range of Real Estate products inclusive of our specialised Private Concierge service during your stay."

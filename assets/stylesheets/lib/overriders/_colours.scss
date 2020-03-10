@@ -6,7 +6,13 @@
 // Transparent
 // -------------------------------------------------------------
 .transparent-bg { background-color: $transparent !important; }
-.transparent-cl { background-color: $transparent !important; }
+.transparent-cl { color: $transparent !important; }
+
+.yellow-transparent-bg { background-color: $yellow-transparent !important; }
+.yellow-transparent-cl { color: $yellow-transparent !important; }
+
+.orange-transparent-bg { background-color: $orange-transparent !important; }
+.orange-transparent-cl { color: $orange-transparent !important; }
 
 // Black
 // -------------------------------------------------------------
