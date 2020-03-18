@@ -78,6 +78,9 @@ ul {
       text-decoration: underline;
       vertical-align: bottom;
     }
+    &.condensed {
+      margin: 2px 0;
+    }
   }
   li:first-child {
     margin-top: 0;

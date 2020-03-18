@@ -1,55 +1,96 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// File:    Campaigns
+// File:    Columns
 // Project: Tadao by IIGETHR
 // -------------------------------------------------------------
 
-.campaign-zero-panel-one {
-  background-image: url("../images/campaigns/panel-bg.png") !important;
-  background-repeat: no-repeat;
-  background-position: top center;
-}
+$class: "columns";
 
-.campaign-one {
-  background-image: url("../images/campaigns/campaign-one-bg.jpg") !important;
-  background-repeat: no-repeat;
-  background-position: top center;
-  // background-size: 1920px 1080px;
+.#{$class} {
   float: left;
-  height: 4000px;
   width: 100%;
+  .#{$class}-box {
+    float: left;
+    width: 100%;
+    .#{$class}-item {
+      float: left;
+      width: 100%;
+    }
+  }
 }
 
 // Media Query 240px
 // -------------------------------------------------------------
 @media #{$xxs} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
 }
 
 // Media Query 360px
 // ------------------------------------------------------------
 @media #{$xs} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
 }
 
 // Media Query 480px
 // -------------------------------------------------------------
 @media #{$s} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
 }
 
 // Media Query 720px
 // -------------------------------------------------------------
 @media #{$m} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
 }
 
 // Media Query 960px
 // -------------------------------------------------------------
 @media #{$l} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
 }
 
 // Media Query 1440px
 // -------------------------------------------------------------
 @media #{$xl} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
 }
 
 // Media Query 1920px
 // -------------------------------------------------------------
 @media #{$xxl} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-item {
+      }
+    }
+  }
 }

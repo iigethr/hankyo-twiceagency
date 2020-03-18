@@ -7,11 +7,25 @@ $class: "content";
 
 .#{$class} {
   float: left;
-  width: 100%;
+  padding: 128px 0;
+  width: 960px;
   .#{$class}-box {
     float: left;
-    padding: 24px;
     width: 100%;
+    .#{$class}-column {
+      float: left;
+      padding: 32px;
+      width: 100%;
+      &.four {
+        width: 25%;
+      }
+      &.three {
+        width: 33.333333%;
+      }
+      &.two {
+        width: 50%;
+      }
+    }
     .#{$class}-row {
       float: left;
       padding: 8px;
@@ -24,7 +38,19 @@ $class: "content";
 // -------------------------------------------------------------
 @media #{$xxs} {
   .#{$class} {
+    width: 240px;
     .#{$class}-box {
+      .#{$class}-column {
+        &.four {
+          width: 100%;
+        }
+        &.three {
+          width: 100%;
+        }
+        &.two {
+          width: 100%;
+        }
+      }
       .#{$class}-row {
       }
     }
@@ -35,7 +61,19 @@ $class: "content";
 // ------------------------------------------------------------
 @media #{$xs} {
   .#{$class} {
+    width: 360px;
     .#{$class}-box {
+      .#{$class}-column {
+        &.four {
+          width: 100%;
+        }
+        &.three {
+          width: 100%;
+        }
+        &.two {
+          width: 100%;
+        }
+      }
       .#{$class}-row {
       }
     }
@@ -46,7 +84,19 @@ $class: "content";
 // -------------------------------------------------------------
 @media #{$s} {
   .#{$class} {
+    width: 480px;
     .#{$class}-box {
+      .#{$class}-column {
+        &.four {
+          width: 100%;
+        }
+        &.three {
+          width: 100%;
+        }
+        &.two {
+          width: 100%;
+        }
+      }
       .#{$class}-row {
       }
     }
@@ -57,6 +107,7 @@ $class: "content";
 // -------------------------------------------------------------
 @media #{$m} {
   .#{$class} {
+    width: 720px;
     .#{$class}-box {
       .#{$class}-row {
       }

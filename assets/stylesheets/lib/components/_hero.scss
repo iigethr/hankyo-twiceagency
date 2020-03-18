@@ -11,10 +11,19 @@ $class: "hero";
   width: 960px;
   .#{$class}-box {
     float: left;
+    padding: 16px;
     width: 100%;
+    .#{$class}-wrap {
+      float: left;
+      padding: 32px;
+      width: 100%;
+    }
     .#{$class}-row {
       float: left;
       width: 100%;
+    }
+    &.narrow {
+      width: 50%;
     }
   }
 }
@@ -27,6 +36,9 @@ $class: "hero";
     width: calc(240px - 64px);
     .#{$class}-box {
       .#{$class}-row {
+      }
+      &.narrow {
+        width: 100%;
       }
     }
   }
@@ -41,6 +53,9 @@ $class: "hero";
     .#{$class}-box {
       .#{$class}-row {
       }
+      &.narrow {
+        width: 100%;
+      }
     }
   }
 }
@@ -54,6 +69,9 @@ $class: "hero";
     .#{$class}-box {
       .#{$class}-row {
       }
+      &.narrow {
+        width: 100%;
+      }
     }
   }
 }
@@ -65,6 +83,9 @@ $class: "hero";
     width: calc(720px - 64px);
     .#{$class}-box {
       .#{$class}-row {
+      }
+      &.narrow {
+        width: 100%;
       }
     }
   }

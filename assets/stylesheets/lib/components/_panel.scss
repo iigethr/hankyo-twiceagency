@@ -9,10 +9,10 @@ $class: "panel";
   background-color: white;
   float: left;
   height: 960px;
+  min-height: 960px;
   padding: 16px 32px;
   width: 100%;
   .#{$class}-box {
-    background-color: green;
     float: left;
     height: 100%;
     width: 100%;
@@ -20,6 +20,9 @@ $class: "panel";
       float: left;
       width: 100%;
     }
+  }
+  &.bottom {
+    padding: 16px 32px 32px !important;
   }
 }
 

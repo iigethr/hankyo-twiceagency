@@ -37,7 +37,7 @@ class Design extends React.Component {
     const meta = children.props.meta
     const config = children.props.config
     return (
-      <div className="root white-bg">
+      <div className="root">
         <Head>
           <title>{meta.title}</title>
           <meta name="description" content={meta.description} />
