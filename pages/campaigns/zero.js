@@ -1,12 +1,10 @@
 // Campaign One
 
+// Data
+import campaign_zero from "js-yaml-loader!../../data/campaigns/campaign_zero.yml"
 // Components
 import Head from "next/head"
 import PanelOne from "../../lib/components/campaigns/zero/panels/panel_one"
-
-// Data
-import campaign_zero from "js-yaml-loader!../../data/campaigns/campaign_zero.yml"
-
 // Modules
 import ZahaAlignments from "@iigethr/zaha_alignments"
 

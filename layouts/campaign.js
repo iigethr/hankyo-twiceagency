@@ -4,9 +4,8 @@
 import React from "react"
 import Head from "next/head"
 import { initGA, logPageView } from "../lib/globals/google_analytics"
-
 import Header from "../lib/globals/header"
-import Footer from "../lib/globals/Footer"
+import Footer from "../lib/globals/footer"
 // Modules
 import cookies from "next-cookies"
 import ZahaAlignments from "@iigethr/zaha_alignments"
