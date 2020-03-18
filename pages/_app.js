@@ -33,9 +33,9 @@ class MyApp extends App {
       )
     } else if (router.pathname === "/") {
       return (
-        <PrimaryLayout>
+        <CampaignLayout>
           <Component {...pageProps} {...meta} {...config} {...project} />
-        </PrimaryLayout>
+        </CampaignLayout>
       )
     } else {
       return (

@@ -1,21 +1,34 @@
 // Index
 
 // Components
-import Hero from "../lib/components/hero"
+import Header from "../lib/globals/header"
+import Footer from "../lib/globals/footer"
+import Panel from "../lib/components/panel"
+// Data
+import config from "js-yaml-loader!../data/config.yml"
 // Modules
 import ZahaAlignments from "@iigethr/zaha_alignments"
 
 class Index extends React.Component {
+  static async getInitialProps() {
+    return {
+      config: config
+    }
+  }
+
   componentDidMount() {
     ZahaAlignments.centerH()
     console.log("Registered a Page - Index")
   }
 
   render () {
-    const project = this.props.project
     return (
       <div>
-        <Hero project={project} />
+        <Header />
+        <Panel/>
+        <Panel/>
+        <Panel/>
+        <Footer config={config}/>
       </div>
     )
   }

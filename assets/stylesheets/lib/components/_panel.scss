@@ -1,31 +1,23 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// File:    Universal
+// File:    Panel
 // Project: Tadao by IIGETHR
 // -------------------------------------------------------------
 
-$class: "universal";
+$class: "panel";
 
 .#{$class} {
-  @include border-box;
+  background-color: white;
   float: left;
-  margin: 0 auto;
-  min-width: 240px;
-  overflow-x: hidden;
-  padding: 0;
+  height: 960px;
+  padding: 16px 32px;
   width: 100%;
   .#{$class}-box {
-    @include border-box;
-    @include clearfix;
-    margin: 0 auto;
-    overflow-x: hidden;
-    padding: 0;
-    width: 240px;
+    background-color: green;
+    float: left;
+    height: 100%;
+    width: 100%;
     .#{$class}-row {
-      @include border-box;
       float: left;
-      margin: 0 auto;
-      overflow-x: hidden;
-      padding: 0;
       width: 100%;
     }
   }
@@ -35,25 +27,19 @@ $class: "universal";
 // -------------------------------------------------------------
 @media #{$xxs} {
   .#{$class} {
-    min-width: 240px;
     .#{$class}-box {
-      width: 240px;
       .#{$class}-row {
-        width: 100%;
       }
     }
   }
 }
 
 // Media Query 360px
-// -------------------------------------------------------------
+// ------------------------------------------------------------
 @media #{$xs} {
   .#{$class} {
-    min-width: 360px;
     .#{$class}-box {
-      width: 360px;
       .#{$class}-row {
-        width: 100%;
       }
     }
   }
@@ -63,11 +49,8 @@ $class: "universal";
 // -------------------------------------------------------------
 @media #{$s} {
   .#{$class} {
-    min-width: 480px;
     .#{$class}-box {
-      width: 480px;
       .#{$class}-row {
-        width: 100%;
       }
     }
   }
@@ -77,11 +60,8 @@ $class: "universal";
 // -------------------------------------------------------------
 @media #{$m} {
   .#{$class} {
-    min-width: 720px;
     .#{$class}-box {
-      width: 720px;
       .#{$class}-row {
-        width: 100%;
       }
     }
   }
@@ -91,11 +71,8 @@ $class: "universal";
 // -------------------------------------------------------------
 @media #{$l} {
   .#{$class} {
-    min-width: 960px;
     .#{$class}-box {
-      width: 960px;
       .#{$class}-row {
-        width: 100%;
       }
     }
   }
@@ -105,11 +82,8 @@ $class: "universal";
 // -------------------------------------------------------------
 @media #{$xl} {
   .#{$class} {
-    min-width: 1440px;
     .#{$class}-box {
-      width: 1440px;
       .#{$class}-row {
-        width: 100%;
       }
     }
   }
@@ -119,11 +93,8 @@ $class: "universal";
 // -------------------------------------------------------------
 @media #{$xxl} {
   .#{$class} {
-    min-width: 1920px;
     .#{$class}-box {
-      width: 1920px;
       .#{$class}-row {
-        width: 100%;
       }
     }
   }
