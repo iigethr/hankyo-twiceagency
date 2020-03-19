@@ -597,12 +597,12 @@
 }
 
 @mixin button-orange-theme {
-  background-color: $orange-400 !important;
+  background-color: $orange-500 !important;
   border-color: $orange-500 !important;
   color: $white !important;
   &:link,
   &:visited {
-    background-color: $orange-400 !important;
+    background-color: $orange-500 !important;
     border-color: $orange-500 !important;
     color: $white !important;
   }

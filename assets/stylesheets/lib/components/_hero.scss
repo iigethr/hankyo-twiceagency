@@ -15,8 +15,9 @@ $class: "hero";
     width: 100%;
     .#{$class}-wrap {
       float: left;
+      margin: 16px;
       padding: 32px;
-      width: 100%;
+      width: calc(100% - 32px);
     }
     .#{$class}-row {
       float: left;

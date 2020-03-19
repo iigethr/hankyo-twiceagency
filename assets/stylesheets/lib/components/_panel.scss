@@ -13,6 +13,8 @@ $class: "panel";
   padding: 16px 32px;
   width: 100%;
   .#{$class}-box {
+    background-position: top center;
+    background-repeat: no-repeat;
     float: left;
     height: 100%;
     width: 100%;
