@@ -21,7 +21,7 @@ class MyDocument extends Document {
         <Head>
           <Meta meta={meta} />
           {/* Icon */}
-          <link rel="icon" type="image/png" href="favicon/favicon.png" />
+          <link rel="icon" type="image/png" href="https://weare.twice-agency.com/favicon/favicon.png" />
           {/*
             <link rel="icon" href="favicon/favicon.ico" />
             <link rel="icon" type="image/png" href="favicon/favicon-196x196.png" sizes="196x196" />
