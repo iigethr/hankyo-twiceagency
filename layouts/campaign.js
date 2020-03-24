@@ -1,4 +1,4 @@
-// Campaigns Layout
+// Campaign Layout
 
 // Components
 import React from "react"
@@ -6,11 +6,12 @@ import Head from "next/head"
 import { initGA, logPageView } from "../lib/globals/google_analytics"
 import Header from "../lib/globals/header"
 import Footer from "../lib/globals/footer"
+import Advisory from "../lib/globals/advisory"
 // Modules
 import cookies from "next-cookies"
 import ZahaAlignments from "@iigethr/zaha_alignments"
 
-class Design extends React.Component {
+class Campaign extends React.Component {
   constructor(props, ctx) {
     super(props)
     const cookie = cookies(ctx).weLoveCookies
@@ -47,9 +48,10 @@ class Design extends React.Component {
           { children }
         </main>
         <Footer config={config} />
+        <Advisory />
       </div>
     )
   }
 }
 
-export default Design
+export default Campaign
