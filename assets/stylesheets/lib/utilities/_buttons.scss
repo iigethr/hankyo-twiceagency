@@ -186,6 +186,48 @@
     $push: 18px
   );
   border-radius: 8px;
+  @media #{$xxs} {
+    @include button-math(
+      $border: 24px,
+      $font: 14px,
+      $height: 48px,
+      $icon-height: 32px,
+      $push: 4px
+    );
+    .icon {
+      display: none;
+      visibility: hidden;
+      margin: 0;
+    }
+  }
+  @media #{$xs} {
+    @include button-math(
+      $border: 24px,
+      $font: 14px,
+      $height: 48px,
+      $icon-height: 32px,
+      $push: 8px
+    );
+    .icon {
+      display: none;
+      visibility: hidden;
+      margin: 0;
+    }
+  }
+  @media #{$s} {
+    @include button-math(
+      $border: 24px,
+      $font: 14px,
+      $height: 48px,
+      $icon-height: 32px,
+      $push: 18px
+    );
+    .icon {
+      display: none;
+      visibility: hidden;
+      margin: 0;
+    }
+  }
 }
 
 // Classes
