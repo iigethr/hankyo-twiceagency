@@ -29,6 +29,8 @@ class CampaignOne extends React.Component {
         <Head>
           <title>{campaign.title}</title>
           <meta name="description" content={campaign.description} />
+          <meta property="og:url" content="https://weare.twice-agency.com/campaigns/french-riviera" />
+          <link rel="canonical" href="https://weare.twice-agency.com/campaigns/french-riviera" />
         </Head>
         <PanelOne campaign={campaign} />
         <PanelTwo campaign={campaign} />
