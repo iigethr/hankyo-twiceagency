@@ -55,12 +55,42 @@
     line-height: 32px;
     min-height: 32px;
   }
+  @media #{$xxs} {
+    font-size: 24px;
+    line-height: 40px;
+    min-height: 40px;
+  }
+  @media #{$xs} {
+    font-size: 24px;
+    line-height: 40px;
+    min-height: 40px;
+  }
+  @media #{$s} {
+    font-size: 24px;
+    line-height: 40px;
+    min-height: 40px;
+  }
 }
 
 @mixin font-display {
   font-size: 80px;
   line-height: 80px;
   min-height: 80px;
+  @media #{$xxs} {
+    font-size: 40px;
+    line-height: 40px;
+    min-height: 40px;
+  }
+  @media #{$xs} {
+    font-size: 40px;
+    line-height: 40px;
+    min-height: 40px;
+  }
+  @media #{$s} {
+    font-size: 40px;
+    line-height: 40px;
+    min-height: 40px;
+  }
 }
 
 // Classes
@@ -73,3 +103,39 @@
 .font-xl  { @include font-xl; }
 .font-xxl { @include font-xxl; }
 .font-display { @include font-display; }
+
+
+// Media Query 240px
+// -------------------------------------------------------------
+@media #{$xxs} {
+}
+
+// Media Query 360px
+// ------------------------------------------------------------
+@media #{$xs} {
+}
+
+// Media Query 480px
+// -------------------------------------------------------------
+@media #{$s} {
+}
+
+// Media Query 720px
+// -------------------------------------------------------------
+@media #{$m} {
+}
+
+// Media Query 960px
+// -------------------------------------------------------------
+@media #{$l} {
+}
+
+// Media Query 1440px
+// -------------------------------------------------------------
+@media #{$xl} {
+}
+
+// Media Query 1920px
+// -------------------------------------------------------------
+@media #{$xxl} {
+}
