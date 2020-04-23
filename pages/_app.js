@@ -3,6 +3,7 @@
 // Components
 import React from "react"
 import App from "next/app"
+import TagManager from 'react-gtm-module'
 // Layouts
 import CampaignLayout from "../layouts/campaign"
 import PrimaryLayout from "../layouts/primary"
@@ -14,6 +15,10 @@ import project from "js-yaml-loader!../data/project.yml"
 // SCSS
 import "../assets/stylesheets/tadao.scss"
 
+const tagManagerArgs = {
+  id: "GTM-XXXXXXX"
+}
+
 class MyApp extends App {
   static async getInitialProps({ Component, router, ctx }) {
     let pageProps = {}
@@ -21,6 +26,10 @@ class MyApp extends App {
       pageProps = await Component.getInitialProps(ctx)
     }
     return { pageProps, meta: meta, config: config, project: project }
+  }
+
+  componentDidMount () {
+    TagManager.initialize(tagManagerArgs)
   }
 
   render() {

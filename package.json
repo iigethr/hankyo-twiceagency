@@ -30,7 +30,8 @@
     "node-sass": "^4.13.1",
     "react": "16.13.0",
     "react-dom": "16.13.0",
-    "react-ga": "^2.7.0"
+    "react-ga": "^2.7.0",
+    "react-gtm-module": "^2.0.8"
   },
   "devDependencies": {
     "cypress": "^4.0.2"

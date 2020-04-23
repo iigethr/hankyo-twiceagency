@@ -7,10 +7,11 @@ const withSass          = require("@zeit/next-sass")
 const withYml           = require("js-yaml-loader")
 const withPWA           = require("next-pwa")
 const withRedirect      = require("nextjs-redirect")
+const withGA            = require("react-gtm-module")
+const withGTMMoodule    = require("react-gtm-module")
 
 // Note: Keep it Last here and withPlugins()
 const withTM  = require("next-transpile-modules")([
-  "react-ga",
   "js-cookie",
   "next-cookies",
   "@hankyo/hankyo",
@@ -47,7 +48,6 @@ const nextPWAConfig = {
   }
 }
 
-
 const nextConfig = {
   webpack: (config) => {
     config.node = { // eslint-disable-line no-param-reassign
@@ -65,5 +65,7 @@ module.exports = withPlugins([
   [withImages, withImagesConfig],
   [withYml],
   [withRedirect],
-  [withTM]
+  [withTM],
+  [withGA],
+  [withGTMMoodule]
 ], nextConfig)

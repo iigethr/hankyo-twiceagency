@@ -1,7 +1,8 @@
 // Panel One
 
 // Components
-import HeroOne from "../heros/hero_one"
+// Assets
+import BackgroundImage from "../../../../assets/images/campaigns/french-riviera/panel-one.png";
 
 class PanelOne extends React.Component {
   render () {
@@ -10,9 +11,13 @@ class PanelOne extends React.Component {
       <div className="panel">
         <div className="panel-box campaign-zero-panel-one">
           <div className="panel-row">
-            <HeroOne campaign={campaign} />
           </div>
         </div>
+        <style jsx>{`
+          .panel-box {
+            background-image: url(${BackgroundImage});
+          }
+        `}</style>
       </div>
     )
   }
