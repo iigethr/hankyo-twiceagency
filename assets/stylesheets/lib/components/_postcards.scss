@@ -1,0 +1,265 @@
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// File:    Postcard
+// Project: Tadao by IIGETHR
+// -------------------------------------------------------------
+
+$class: "postcard";
+
+.#{$class} {
+  background-color: white;
+  float: left;
+  // min-height: 476px;
+  margin: 32px;
+  padding: 32px;
+  width: 896px;
+  .#{$class}-box {
+    background-size: 832px 412px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 100%;
+    width: 100%;
+    .#{$class}-row {
+      float: left;
+      padding: 0;
+      width: 100%;
+      .#{$class}-wide {
+        background-size: 832px 412px;
+        float: left;
+        padding: 32px;
+        min-height: 412px;
+        width: 832px;
+      }
+      .#{$class}-left {
+        background-size: 416px 412px;
+        float: left;
+        padding: 32px 32px 32px 0;
+        min-height: 412px;
+        width: 416px;
+        &.transparent {
+          padding: 32px;
+        }
+      }
+      .#{$class}-right {
+        background-size: cover;
+        float: right;
+        padding: 32px 0 32px 32px;
+        min-height: 412px;
+        width: 416px;
+        &.transparent {
+          padding: 32px;
+        }
+      }
+      .#{$class}-grid {
+        background-color: red;
+        float: left;
+        padding: 32px;
+        margin: 0 16px;
+        min-height: 184px;
+        width: 184px;
+        &:first-child {
+          margin: 0 16px 0 0;
+          background-color: green;
+        }
+        &:last-child {
+          margin: 0 0 0 16px;
+          background-color: blue;
+        }
+      }
+    }
+  }
+  &.top {
+    margin: 32px 32px 0px;
+  }
+  &.bottom {
+    margin: 0 32px 32px;
+  }
+}
+
+// Media Query 240px
+// -------------------------------------------------------------
+@media #{$xxs} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-row {
+      }
+    }
+  }
+}
+
+// Media Query 360px
+// ------------------------------------------------------------
+@media #{$xs} {
+  .#{$class} {
+    min-height: 476px;
+    margin: 32px;
+    padding: 32px;
+    width: 296px;
+    .#{$class}-box {
+      .#{$class}-row {
+        .#{$class}-wide {
+          background-size: 296px 412px;
+          float: left;
+          padding: 32px 8px;
+          min-height: 412px;
+          width: 232px;
+        }
+        .#{$class}-left {
+          background-size: 296px 412px;
+          float: left;
+          padding: 32px 8px;
+          min-height: 412px;
+          width: 232px;
+        }
+        .#{$class}-right {
+          background-size: 296px 412px;
+          float: left;
+          padding: 32px 8px;
+          min-height: 412px;
+          width: 232px;
+        }
+        .#{$class}-grid {
+          padding: 0;
+          margin: 0 1px;
+          min-height: 56px;
+          width: 56px;
+          &:first-child {
+            margin: 0 1px 0 0;
+          }
+          &:last-child {
+            margin: 0 0 0 1px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Media Query 480px
+// -------------------------------------------------------------
+@media #{$s} {
+  .#{$class} {
+    min-height: 476px;
+    margin: 32px;
+    padding: 32px;
+    width: 416px;
+    .#{$class}-box {
+      .#{$class}-row {
+        .#{$class}-wide {
+          background-size: 352px 412px;
+          float: left;
+          padding: 32px;
+          min-height: 412px;
+          width: 352px;
+        }
+        .#{$class}-left {
+          background-size: 352px 412px;
+          float: left;
+          padding: 32px;
+          min-height: 412px;
+          width: 352px;
+        }
+        .#{$class}-right {
+          background-size: 352px 412px;
+          float: left;
+          padding: 32px;
+          min-height: 412px;
+          width: 352px;
+        }
+        .#{$class}-grid {
+          padding: 32px;
+          margin: 0 4px;
+          min-height: 82px;
+          width: 82px;
+          &:first-child {
+            margin: 0 4px 0 0;
+          }
+          &:last-child {
+            margin: 0 0 0 4px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Media Query 720px
+// -------------------------------------------------------------
+@media #{$m} {
+  .#{$class} {
+    min-height: 476px;
+    margin: 32px;
+    padding: 32px;
+    width: 656px;
+    .#{$class}-box {
+      .#{$class}-row {
+        .#{$class}-wide {
+          background-size: 592px 412px;
+          float: left;
+          padding: 32px;
+          min-height: 412px;
+          width: 592px;
+        }
+        .#{$class}-left {
+          background-size: 592px 412px;
+          float: left;
+          padding: 32px;
+          min-height: 412px;
+          width: 592px;
+        }
+        .#{$class}-right {
+          background-size: 592px 412px;
+          float: left;
+          padding: 32px;
+          min-height: 412px;
+          width: 592px;
+        }
+        .#{$class}-grid {
+          padding: 32px;
+          margin: 0 16px;
+          min-height: 124px;
+          width: 124px;
+          &:first-child {
+            margin: 0 16px 0 0;
+          }
+          &:last-child {
+            margin: 0 0 0 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Media Query 960px
+// -------------------------------------------------------------
+@media #{$l} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-row {
+      }
+    }
+  }
+}
+
+// Media Query 1440px
+// -------------------------------------------------------------
+@media #{$xl} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-row {
+      }
+    }
+  }
+}
+
+// Media Query 1920px
+// -------------------------------------------------------------
+@media #{$xxl} {
+  .#{$class} {
+    .#{$class}-box {
+      .#{$class}-row {
+      }
+    }
+  }
+}
