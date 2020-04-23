@@ -24,3 +24,6 @@ SETUP.md
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Misc
+/assets/images/campaigns/research/*
