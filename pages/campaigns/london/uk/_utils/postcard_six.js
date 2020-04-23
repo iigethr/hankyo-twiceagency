@@ -1,7 +1,7 @@
 // Postcard Two
 
 // Assets
-import BackgroundImage from "../../../../assets/images/campaigns/london/panel-one.png";
+import BackgroundImage from "../../../../../assets/images/campaigns/london/panel-one.png";
 
 class PostcardFive extends React.Component {
   render () {

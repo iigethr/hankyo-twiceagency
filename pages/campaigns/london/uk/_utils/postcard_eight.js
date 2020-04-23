@@ -38,7 +38,7 @@ class PostcardFour extends React.Component {
             <hr className="separator-xs" />
             <a href="https://twice-agency.com/estates/" className="button-xxl orange center-h" rel="noreferrer" target="_blank">
               Click to Find Out More
-              <span className="icon right"><img src={require("../../../../assets/images/campaigns/arrow-right.png")} alt="twice-agency" title="Twice Agency"/></span>
+              <span className="icon right"><img src={require("../../../../../assets/images/campaigns/arrow-right.png")} alt="twice-agency" title="Twice Agency"/></span>
             </a>
           </div>
         </div>

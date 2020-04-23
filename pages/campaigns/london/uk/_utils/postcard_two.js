@@ -1,7 +1,7 @@
 // Postcard Two
 
 // Assets
-import BackgroundImage from "../../../../assets/images/campaigns/london/panel-one.png";
+import BackgroundImage from "../../../../../assets/images/campaigns/london/panel-one.png";
 
 class PostcardTwo extends React.Component {
   render () {
@@ -20,7 +20,7 @@ class PostcardTwo extends React.Component {
               </p>
               <hr className="separator-xs" />
               <a href="#hero-two" className="link-xxl center-h" rel="noreferrer">
-                <span className="icon"><img src={require("../../../../assets/images/campaigns/arrow-down-orange.png")} alt="twice-agency" title="Twice Agency"/></span>
+                <span className="icon"><img src={require("../../../../../assets/images/campaigns/arrow-down-orange.png")} alt="twice-agency" title="Twice Agency"/></span>
               </a>
             </div>
           </div>

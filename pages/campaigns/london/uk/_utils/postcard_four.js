@@ -1,15 +1,15 @@
 // Postcard Two
 
 // Assets
-import BackgroundImage from "../../../../assets/images/campaigns/london/panel-one.png";
+import BackgroundImage from "../../../../../assets/images/campaigns/london/panel-one.png";
 
-class PostcardFive extends React.Component {
+class PostcardFour extends React.Component {
   render () {
     return (
       <div className="postcard center-h">
         <div className="postcard-box">
           <div className="postcard-row">
-            <div className="postcard-left white-bg">
+            <div className="postcard-wide white-bg">
               <p className="font-xxl text-center orange-500-cl">Welcome to</p>
               <h1 className="font-display text-center uppercase orange-500-cl">London</h1>
               <hr className="separator-s" />
@@ -29,4 +29,4 @@ class PostcardFive extends React.Component {
   }
 }
 
-export default PostcardFive
+export default PostcardFour
