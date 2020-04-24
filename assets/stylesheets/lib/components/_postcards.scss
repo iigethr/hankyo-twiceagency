@@ -8,12 +8,11 @@ $class: "postcard";
 .#{$class} {
   background-color: white;
   float: left;
-  // min-height: 476px;
-  margin: 32px;
+  min-height: 540px;
   padding: 32px;
-  width: 896px;
+  width: 960px;
   .#{$class}-box {
-    background-size: 832px 412px;
+    background-size: 896px 476px;
     background-position: top center;
     background-repeat: no-repeat;
     float: left;
@@ -21,33 +20,29 @@ $class: "postcard";
     width: 100%;
     .#{$class}-row {
       float: left;
-      padding: 0;
       width: 100%;
       .#{$class}-wide {
-        background-size: 832px 412px;
-        float: left;
+        background-size: 896px 476px;
         padding: 32px;
-        min-height: 412px;
-        width: 832px;
+        min-height: 476px;
+        width: 896px;
       }
       .#{$class}-left {
-        background-size: 416px 412px;
         float: left;
-        padding: 32px 32px 32px 0;
-        min-height: 412px;
-        width: 416px;
-        &.transparent {
-          padding: 32px;
+        padding: 32px;
+        min-height: 476px;
+        width: 448px;
+        &.fill {
+          padding: 32px 32px 32px 0;
         }
       }
       .#{$class}-right {
-        background-size: cover;
         float: right;
-        padding: 32px 0 32px 32px;
-        min-height: 412px;
-        width: 416px;
-        &.transparent {
-          padding: 32px;
+        padding: 32px;
+        min-height: 476px;
+        width: 448px;
+        &.fill {
+          padding: 32px 0 32px 32px;
         }
       }
       .#{$class}-grid {
@@ -81,6 +76,9 @@ $class: "postcard";
 @media #{$xxs} {
   .#{$class} {
     .#{$class}-box {
+      &.responsive {
+        background-size: 592px 952px;
+      }
       .#{$class}-row {
       }
     }
@@ -92,31 +90,36 @@ $class: "postcard";
 @media #{$xs} {
   .#{$class} {
     min-height: 476px;
-    margin: 32px;
-    padding: 32px;
-    width: 296px;
+    padding: 16px;
+    width: 328px;
     .#{$class}-box {
+      &.responsive {
+        background-size: 592px 952px;
+      }
       .#{$class}-row {
         .#{$class}-wide {
-          background-size: 296px 412px;
-          float: left;
-          padding: 32px 8px;
-          min-height: 412px;
-          width: 232px;
+          background-size: 328px 476px;
+          padding: 32px;
+          min-height: 476px;
+          width: 296px;
         }
         .#{$class}-left {
-          background-size: 296px 412px;
-          float: left;
-          padding: 32px 8px;
-          min-height: 412px;
-          width: 232px;
+          background-size: 328px 476px;
+          padding: 32px;
+          min-height: 476px;
+          width: 296px;
+          &.fill {
+            padding: 32px 0;
+          }
         }
         .#{$class}-right {
-          background-size: 296px 412px;
-          float: left;
-          padding: 32px 8px;
-          min-height: 412px;
-          width: 232px;
+          background-size: 328px 476px;
+          padding: 32px;
+          min-height: 476px;
+          width: 296px;
+          &.fill {
+            padding: 32px 0;
+          }
         }
         .#{$class}-grid {
           padding: 0;
@@ -140,31 +143,35 @@ $class: "postcard";
 @media #{$s} {
   .#{$class} {
     min-height: 476px;
-    margin: 32px;
-    padding: 32px;
     width: 416px;
     .#{$class}-box {
+      &.responsive {
+        background-size: 592px 952px;
+      }
       .#{$class}-row {
         .#{$class}-wide {
-          background-size: 352px 412px;
-          float: left;
+          background-size: 416px 476px;
           padding: 32px;
-          min-height: 412px;
+          min-height: 476px;
           width: 352px;
         }
         .#{$class}-left {
-          background-size: 352px 412px;
-          float: left;
+          background-size: 416px 476px;
           padding: 32px;
-          min-height: 412px;
+          min-height: 476px;
           width: 352px;
+          &.fill {
+            padding: 32px 0;
+          }
         }
         .#{$class}-right {
-          background-size: 352px 412px;
-          float: left;
+          background-size: 416px 476px;
           padding: 32px;
-          min-height: 412px;
+          min-height: 476px;
           width: 352px;
+          &.fill {
+            padding: 32px 0;
+          }
         }
         .#{$class}-grid {
           padding: 32px;
@@ -188,31 +195,35 @@ $class: "postcard";
 @media #{$m} {
   .#{$class} {
     min-height: 476px;
-    margin: 32px;
-    padding: 32px;
     width: 656px;
     .#{$class}-box {
+      &.responsive {
+        background-size: 592px 952px;
+      }
       .#{$class}-row {
         .#{$class}-wide {
-          background-size: 592px 412px;
-          float: left;
+          background-size: 592px 476px;
           padding: 32px;
-          min-height: 412px;
+          min-height: 476px;
           width: 592px;
         }
         .#{$class}-left {
-          background-size: 592px 412px;
-          float: left;
+          background-size: 592px 952px;
           padding: 32px;
-          min-height: 412px;
+          min-height: 476px;
           width: 592px;
+          &.fill {
+            padding: 32px 0;
+          }
         }
         .#{$class}-right {
-          background-size: 592px 412px;
-          float: left;
+          background-size: 592px 952px;
           padding: 32px;
-          min-height: 412px;
+          min-height: 476px;
           width: 592px;
+          &.fill {
+            padding: 32px 0;
+          }
         }
         .#{$class}-grid {
           padding: 32px;
