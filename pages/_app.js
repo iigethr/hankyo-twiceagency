@@ -15,9 +15,9 @@ import project from "js-yaml-loader!../data/project.yml"
 // SCSS
 import "../assets/stylesheets/tadao.scss"
 
-const tagManagerArgs = {
-  id: "GTM-XXXXXXX"
-}
+// const tagManagerArgs = {
+//   id: "GTM-XXXXXXX"
+// }
 
 class MyApp extends App {
   static async getInitialProps({ Component, router, ctx }) {
@@ -28,9 +28,9 @@ class MyApp extends App {
     return { pageProps, meta: meta, config: config, project: project }
   }
 
-  componentDidMount () {
-    TagManager.initialize(tagManagerArgs)
-  }
+  // componentDidMount () {
+  //   TagManager.initialize(tagManagerArgs)
+  // }
 
   render() {
     const { Component, pageProps, router, config, project } = this.props

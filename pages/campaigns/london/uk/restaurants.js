@@ -2,14 +2,14 @@
 
 // Components
 import Head from "next/head"
-import PostcardOne from "../../../campaigns/london/uk/_utils/postcard_one"
-import PostcardTwo from "../../../campaigns/london/uk/_utils/postcard_two"
-import PostcardThree from "../../../campaigns/london/uk/_utils/postcard_three"
-import PostcardFour from "../../../campaigns/london/uk/_utils/postcard_four"
-import PostcardFive from "../../../campaigns/london/uk/_utils/postcard_five"
-import PostcardSix from "../../../campaigns/london/uk/_utils/postcard_six"
-import PostcardSeven from "../../../campaigns/london/uk/_utils/postcard_seven"
-import PostcardEight from "../../../campaigns/london/uk/_utils/postcard_eight"
+import PostcardOne from "../../../../lib/components/blocks/postcard_one"
+import PostcardTwo from "../../../../lib/components/blocks/postcard_two"
+import PostcardThree from "../../../../lib/components/blocks/postcard_three"
+import PostcardFour from "../../../../lib/components/blocks/postcard_four"
+import PostcardFive from "../../../../lib/components/blocks/postcard_five"
+import PostcardSix from "../../../../lib/components/blocks/postcard_six"
+import PostcardSeven from "../../../../lib/components/blocks/postcard_seven"
+import PostcardEight from "../../../../lib/components/blocks/postcard_eight"
 import Services from "../../../campaigns/london/uk/services"
 // Modules
 import ZahaAlignments from "@iigethr/zaha_alignments"
