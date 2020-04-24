@@ -1,6 +1,7 @@
 // London UK Restaurants
 
 // Components
+import GridOne from "../../lib/components/blocks/grid_one"
 import PostcardOne from "../../lib/components/blocks/postcard_one"
 import PostcardTwo from "../../lib/components/blocks/postcard_two"
 import PostcardThree from "../../lib/components/blocks/postcard_three"
@@ -36,6 +37,8 @@ class Blocks extends React.Component {
         <PostcardSeven />
         <hr className="separator-s" />
         <PostcardEight />
+        <hr className="separator-s" />
+        <GridOne />
         <hr className="separator-s" />
       </div>
     )
