@@ -18,8 +18,8 @@ class CampaignOne extends React.Component {
     return (
       <div>
         <Head>
-          <title>Benefit from a premium service of reservations for restaurants | Twice Agency</title>
-          <meta name="description" content="We are here to advise you for any sort of reservation, be it short notice or an already fully booked venue." />
+          <title>Restaurants | Twice Agency</title>
+          <meta name="description" content="Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit." />
           <meta property="og:url" content="https://weare.twice-agency.com/campaigns/london/uk/restaurants" />
           <link rel="canonical" href="https://weare.twice-agency.com/campaigns/london/uk/restaurants" />
         </Head>
