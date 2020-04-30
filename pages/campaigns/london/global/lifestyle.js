@@ -1,11 +1,11 @@
-// London UK Lifestyle
+// London Global Lifestyle
 
 // Components
 import Head from "next/head"
 import PostcardOne from "../../../../lib/components/campaigns/london/global/lifestyle/postcard_one"
-import PostcardTwo from "../../../../lib/components/campaigns/london/uk/lifestyle/postcard_two"
-import PostcardThree from "../../../../lib/components/campaigns/london/uk/lifestyle/postcard_three"
-import GridOne from "../../../../lib/components/campaigns/london/uk/lifestyle/grid_one"
+import PostcardTwo from "../../../../lib/components/campaigns/london/global/lifestyle/postcard_two"
+import PostcardThree from "../../../../lib/components/campaigns/london/global/lifestyle/postcard_three"
+import GridOne from "../../../../lib/components/campaigns/london/global/lifestyle/grid_one"
 // Modules
 import ZahaAlignments from "@iigethr/zaha_alignments"
 
@@ -18,8 +18,8 @@ class CampaignOne extends React.Component {
     return (
       <div>
         <Head>
-          <title>lifestyle | Twice Agency</title>
-          <meta name="description" content="Curabitur blandit tempus porttitor." />
+          <title>Welcome to London - Lifestyle | Twice Agency</title>
+          <meta name="description" content="We turn your dreams into reality. You explore while our Lifestyle Team accommodates to every wish." />
           <meta property="og:url" content="https://weare.twice-agency.com/campaigns/london/uk/lifestyle" />
           <link rel="canonical" href="https://weare.twice-agency.com/campaigns/london/uk/lifestyle" />
         </Head>
