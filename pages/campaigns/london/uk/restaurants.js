@@ -1,4 +1,4 @@
-// London UK Restaurants
+// London UK Lifestyle
 
 // Components
 import Head from "next/head"
@@ -19,9 +19,9 @@ class CampaignOne extends React.Component {
       <div>
         <Head>
           <title>Twice Agency - Concierge Services</title>
-          <meta name="description" content="Our partner relationships allow us to book Michelin Star restaurants on a short notice." />
-          <meta property="og:url" content="https://weare.twice-agency.com/campaigns/london/uk/restaurants" />
-          <link rel="canonical" href="https://weare.twice-agency.com/campaigns/london/uk/restaurants" />
+          <meta name="description" content="From luxury travel, guided tours and private dining, to ticketing and exclusive access to VIP events, we have it all covered." />
+          <meta property="og:url" content="https://weare.twice-agency.com/campaigns/london/uk/lifestyle" />
+          <link rel="canonical" href="https://weare.twice-agency.com/campaigns/london/uk/lifestyle" />
         </Head>
         <hr className="separator-m" id="top" />
         <PostcardOne />
