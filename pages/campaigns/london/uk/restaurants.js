@@ -18,7 +18,7 @@ class CampaignOne extends React.Component {
     return (
       <div>
         <Head>
-          <title>Michelin Star Restaurants - London Reservations | Twice Agency</title>
+          <title>Twice Agency - Concierge Services</title>
           <meta name="description" content="Our partner relationships allow us to book Michelin Star restaurants on a short notice." />
           <meta property="og:url" content="https://weare.twice-agency.com/campaigns/london/uk/restaurants" />
           <link rel="canonical" href="https://weare.twice-agency.com/campaigns/london/uk/restaurants" />
