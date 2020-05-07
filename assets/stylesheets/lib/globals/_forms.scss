@@ -320,7 +320,7 @@ form {
       color: $gray;
       cursor: pointer;
       display: inline-block;
-      font-size: 14px;
+      font-size: 12px;
       font-weight: normal;
       min-height: 24px;
       line-height: 24px;
@@ -330,13 +330,13 @@ form {
       .checkmark {
         background-color: $gray-100;
         background-repeat: no-repeat;
-        background-size: 24px 24px;
+        background-size: 12px 12px;
         display: block;
         float: left;
-        height: 24px;
-        margin: 0 7px 0 0;
+        height: 12px;
+        margin: 6px 7px 6px 0;
         padding: 0;
-        width: 24px;
+        width: 12px;
       }
       input:checked ~ .checkmark {
         background-repeat: no-repeat;
