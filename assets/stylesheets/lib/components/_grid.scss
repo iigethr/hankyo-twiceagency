@@ -20,11 +20,19 @@ $class: "grid";
         height: 228px;
         padding: 8px;
         width: 228px;
+        &.third {
+          height: 304px;
+          width: 304px;
+        }
         .#{$class}-inner {
           background-color: $gray-100;
           float: left;
           height: 212px;
           width: 212px;
+          &.third {
+            height: 288px;
+            width: 288px;
+          }
         }
       }
     }
@@ -52,9 +60,17 @@ $class: "grid";
         .#{$class}-item {
           height: 156px;
           width: 156px;
+          &.third {
+            height: 156px;
+            width: 156px;
+          }
           .#{$class}-inner {
             height: 140px;
             width: 140px;
+            &.third {
+              height: 140px;
+              width: 140px;
+            }
           }
         }
       }
@@ -72,9 +88,17 @@ $class: "grid";
         .#{$class}-item {
           height: 216px;
           width: 216px;
+          &.third {
+            height: 216px;
+            width: 216px;
+          }
           .#{$class}-inner {
             height: 200px;
             width: 200px;
+            &.third {
+              height: 200px;
+              width: 200px;
+            }
           }
         }
       }
@@ -92,9 +116,17 @@ $class: "grid";
         .#{$class}-item {
           height: 168px;
           width: 168px;
+          &.third {
+            height: 336px;
+            width: 336px;
+          }
           .#{$class}-inner {
             height: 152px;
             width: 152px;
+            &.third {
+              height: 320px;
+              width: 320px;
+            }
           }
         }
       }

@@ -6,6 +6,7 @@ import PostcardOne from "../../../../lib/components/campaigns/riviera/french/acc
 import PostcardTwo from "../../../../lib/components/campaigns/riviera/french/accommodation/postcard_two"
 import PostcardThree from "../../../../lib/components/campaigns/riviera/french/accommodation/postcard_three"
 import GridOne from "../../../../lib/components/campaigns/riviera/french/accommodation/grid_one"
+import Content from "../../../../lib/components/content"
 // Modules
 import ZahaAlignments from "@iigethr/zaha_alignments"
 
@@ -31,6 +32,8 @@ class CampaignOne extends React.Component {
         <PostcardThree />
         <hr className="separator-m" id="partners"/>
         <GridOne />
+        <hr className="separator-l" id="bottom" />
+        <Content />
         <hr className="separator-m" id="bottom" />
       </div>
     )

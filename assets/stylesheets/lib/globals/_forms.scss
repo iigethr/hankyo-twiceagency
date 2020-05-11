@@ -189,8 +189,8 @@ form {
   select {
     appearance: none;
     background-color: $transparent;
-    background-image: url("../images/icons/circle.png");
-    background-position: right 0 bottom 0;
+    background-image: url("../images/icons/select.png");
+    background-position: right 0 top 4px;
     background-repeat: no-repeat;
     background-size: 24px 24px;
     border: 0;
@@ -209,10 +209,12 @@ form {
     padding: 0;
     text-shadow: 0 0 0 $gray;
     width: 100%;
+    z-index: 1000;
     option {
       @include font-m;
       background-color: $transparent;
       width: 100%;
+      z-index: 1;
     }
   }
 
@@ -221,7 +223,7 @@ form {
     border: 1px solid $gray-100;
     float: left;
     max-width: 100%;
-    padding: 7px 8px;
+    padding: 3px 7px;
     width: 100%;
     select {
       text-shadow: 0 0 0 $gray;

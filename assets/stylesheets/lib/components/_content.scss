@@ -9,6 +9,9 @@ $class: "content";
   float: left;
   padding: 128px 0;
   width: 960px;
+  &.basic {
+    padding: 0;
+  }
   .#{$class}-box {
     float: left;
     width: 100%;
