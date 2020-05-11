@@ -1,11 +1,11 @@
-// London Global Lifestyle
+// Riviera English Real Estate
 
 // Components
 import Head from "next/head"
-import PostcardOne from "../../../../lib/components/campaigns/london/global/restaurants/postcard_one"
-import PostcardTwo from "../../../../lib/components/campaigns/london/global/restaurants/postcard_two"
-import PostcardThree from "../../../../lib/components/campaigns/london/global/restaurants/postcard_three"
-import GridOne from "../../../../lib/components/campaigns/london/global/restaurants/grid_one"
+import PostcardOne from "../../../../lib/components/campaigns/london/uk/lifestyle/postcard_one"
+import PostcardTwo from "../../../../lib/components/campaigns/london/uk/lifestyle/postcard_two"
+import PostcardThree from "../../../../lib/components/campaigns/london/uk/lifestyle/postcard_three"
+import GridOne from "../../../../lib/components/campaigns/london/uk/lifestyle/grid_one"
 // Modules
 import ZahaAlignments from "@iigethr/zaha_alignments"
 
@@ -19,7 +19,7 @@ class CampaignOne extends React.Component {
       <div>
         <Head>
           <title>Twice Agency - Concierge Services</title>
-          <meta name="description" content="From luxury travel, guided tours and private dining, to ticketing and exclusive access to VIP events, we have it all covered." />
+          <meta name="description" content="From private dining, ticketing to exclusive access to VIP events, we have it all covered." />
           <meta property="og:url" content="https://weare.twice-agency.com/campaigns/london/uk/lifestyle" />
           <link rel="canonical" href="https://weare.twice-agency.com/campaigns/london/uk/lifestyle" />
         </Head>
