@@ -6,7 +6,7 @@ import PostcardOne from "../../../../lib/components/campaigns/riviera/french/acc
 import PostcardTwo from "../../../../lib/components/campaigns/riviera/french/accommodation/postcard_two"
 import PostcardThree from "../../../../lib/components/campaigns/riviera/french/accommodation/postcard_three"
 import GridOne from "../../../../lib/components/campaigns/riviera/french/accommodation/grid_one"
-import Content from "../../../../lib/components/content"
+import Content from "../../../../lib/components/content_french"
 // Modules
 import ZahaAlignments from "@iigethr/zaha_alignments"
 
