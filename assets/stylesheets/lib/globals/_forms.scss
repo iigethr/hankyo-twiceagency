@@ -521,7 +521,7 @@ form {
   .file,
   .submit input,
   .form-errors-row {
-    @include border-corner(4px);
+    @include border-corner(2px);
   }
   // scss-lint:enable MergeableSelector
 }

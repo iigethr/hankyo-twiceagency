@@ -29,8 +29,16 @@ $class: "postcard";
         &.right {
           width: 50%;
         }
+        &.right-third {
+          float: right;
+          width: 70%;
+        }
         &.left {
           width: 50%;
+        }
+        &.left-third {
+          float: left;
+          width: 70%;
         }
       }
       .#{$class}-left {
@@ -108,10 +116,12 @@ $class: "postcard";
           padding: 32px;
           min-height: 476px;
           width: 296px;
-          &.right {
+          &.right,
+          &.right-third {
             width: 100%;
           }
-          &.left {
+          &.left
+          &.left-third {
             width: 100%;
           }
         }
@@ -166,10 +176,12 @@ $class: "postcard";
           padding: 32px;
           min-height: 476px;
           width: 352px;
-          &.right {
+          &.right,
+          &.right-third {
             width: 100%;
           }
-          &.left {
+          &.left
+          &.left-third {
             width: 100%;
           }
         }
@@ -224,10 +236,12 @@ $class: "postcard";
           padding: 32px;
           min-height: 476px;
           width: 592px;
-          &.right {
+          &.right,
+          &.right-third {
             width: 100%;
           }
-          &.left {
+          &.left
+          &.left-third {
             width: 100%;
           }
         }
