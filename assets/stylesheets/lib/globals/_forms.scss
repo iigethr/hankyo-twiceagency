@@ -478,6 +478,13 @@ form {
     padding: 0 0 4px;
   }
 
+  .chip {
+    background-color: $gray-000;
+    margin: 8px 4px 0 0;
+    padding: 8px 16px;
+    width: auto;
+  }
+
   label,
   .label {
     padding: 8px 0 0;
@@ -529,16 +536,34 @@ form {
 // Media Query 240px
 // -------------------------------------------------------------
 @media #{$xxs} {
+  .chip {
+    background-color: $gray-000;
+    margin: 8px 0 0 0;
+    padding: 8px 16px;
+    width: 100%;
+  }
 }
 
 // Media Query 360px
 // ------------------------------------------------------------
 @media #{$xs} {
+  .chip {
+    background-color: $gray-000;
+    margin: 8px 0 0 0;
+    padding: 8px 16px;
+    width: 100%;
+  }
 }
 
 // Media Query 480px
 // -------------------------------------------------------------
 @media #{$s} {
+  .chip {
+    background-color: $gray-000;
+    margin: 8px 0 0 0;
+    padding: 8px 16px;
+    width: 100% !important;
+  }
 }
 
 // Media Query 720px
