@@ -59,7 +59,6 @@ $class: "overlay";
 @media #{$xxs} {
   .#{$class} {
     .#{$class}-box {
-      margin: 16px 0 32px;
       width: 240px;
       .#{$class}-item {
         width: 240px;
@@ -82,7 +81,6 @@ $class: "overlay";
 @media #{$xs} {
   .#{$class} {
     .#{$class}-box {
-      margin: 16px 0 32px;
       width: 360px;
       .#{$class}-item {
         width: 360px;
@@ -105,7 +103,6 @@ $class: "overlay";
 @media #{$s} {
   .#{$class} {
     .#{$class}-box {
-      margin: 16px 0 32px;
       width: 480px;
       .#{$class}-item {
         width: 480px;
