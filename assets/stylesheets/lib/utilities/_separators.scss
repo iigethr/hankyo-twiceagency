@@ -46,12 +46,50 @@
 
 @mixin separator-xl {
   @include separator-default;
-  margin: 64px 0 !important;
+  margin: 72px 0 !important;
+  @media #{$xxs} {
+    margin: 12px 0 !important;
+  }
+  @media #{$xs} {
+    margin: 24px 0 !important;
+  }
+  @media #{$s} {
+    margin: 48px 0 !important;
+  }
+  @media #{$m} {
+    margin: 64px 0 !important;
+  }
+}
+
+@mixin separator-xl-push {
+  @include separator-default;
+  margin: 80px 0 !important;
+  @media #{$xxs} {
+    margin: 12px 0 !important;
+  }
+  @media #{$xs} {
+    margin: 24px 0 !important;
+  }
+  @media #{$s} {
+    margin: 48px 0 !important;
+  }
+  @media #{$m} {
+    margin: 64px 0 !important;
+  }
 }
 
 @mixin separator-xxl {
   @include separator-default;
   margin: 96px 0 !important;
+  @media #{$xxs} {
+    margin: 12px 0 !important;
+  }
+  @media #{$xs} {
+    margin: 24px 0 !important;
+  }
+  @media #{$s} {
+    margin: 48px 0 !important;
+  }
 }
 
 @mixin separator-dashed {
@@ -66,6 +104,8 @@
   border-top: 1px solid $gray-300 !important;
 }
 
+
+
 // Classes
 // -------------------------------------------------------------
 .separator        { @include separator; }
@@ -75,6 +115,7 @@
 .separator-m      { @include separator-m; }
 .separator-l      { @include separator-l; }
 .separator-xl     { @include separator-xl; }
+.separator-xl-push     { @include separator-xl-push; }
 .separator-xxl    { @include separator-xxl; }
 .separator-dashed { @include separator-dashed; }
 .separator-dotted { @include separator-dotted; }
