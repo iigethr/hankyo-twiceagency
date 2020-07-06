@@ -14,6 +14,11 @@ import ZahaAlignments from "@iigethr/zaha_alignments"
 class CampaignOne extends React.Component {
   componentDidMount() {
     ZahaAlignments.centerH()
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-763469410');
   }
 
   render () {
@@ -24,6 +29,7 @@ class CampaignOne extends React.Component {
           <meta name="description" content="From luxury travel, guided tours and private dining, to ticketing and exclusive access to VIP events, we have it all covered." />
           <meta property="og:url" content="https://weare.twice-agency.com/campaigns/london/uk/lifestyle" />
           <link rel="canonical" href="https://weare.twice-agency.com/campaigns/london/uk/lifestyle" />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=AW-763469410"></script>
         </Head>
         <Covid />
         <hr className="separator-m" id="top" />
