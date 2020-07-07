@@ -33,13 +33,13 @@ const withImagesConfig = {
 }
 
 // nextEnvConfig
-const nextEnvConfig = {
-  env: {
-    HANKYO_ACCESS_TOKEN: process.env.HANKYO_ACCESS_TOKEN,
-    HANKYO_SECRET_ACCESS_TOKEN: process.env.HANKYO_SECRET_ACCESS_TOKEN,
-    PROJECT_SLUG: process.env.PROJECT_SLUG
-  }
-}
+// const nextEnvConfig = {
+//   env: {
+//     HANKYO_ACCESS_TOKEN: process.env.HANKYO_ACCESS_TOKEN,
+//     HANKYO_SECRET_ACCESS_TOKEN: process.env.HANKYO_SECRET_ACCESS_TOKEN,
+//     PROJECT_SLUG: process.env.PROJECT_SLUG
+//   }
+// }
 
 // nextPwaConfig
 const nextPWAConfig = {
@@ -58,7 +58,7 @@ const nextConfig = {
 }
 
 module.exports = withPlugins([
-  [nextEnvConfig],
+  // [nextEnvConfig],
   [withPWA, nextPWAConfig],
   [withCss],
   [withSass, withSassConfig],
